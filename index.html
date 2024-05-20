@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form action="results.html" method="GET">
+      <div>
+        <label for="Email">Email</label>
+        <input type="text" name="Email" id="Email" placeholder="Email">
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Password">
+      </div>
+      <div>
+        <label for="Github-Username">Github Username</label>
+        <input type="text" name="Github-Username" id="Github-Username" placeholder="Github Username">
+      </div>
+
+      <fieldset>
+        <legend>Membership Type</legend>
+        <input id="Membership-Enterprise" type="radio" name="Membership" value="Enterprise">
+        <label for="Membership-Enterprise">Enterprise</label><br>
+
+        <input id="Membership-Pro" type="radio" name="Membership" value="Pro">
+        <label for="Membership-Pro">Pro</label><br>
+
+        <input id="Membership-Free" type="radio" name="Membership" value="Free">
+        <label for="Membership-Free">Free</label><br>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Who should you remember?</legend>
+        <input id="technology-cli" type="checkbox" name="technology" value="Command Line">
+        <label for="technology-cli">Remember Me</label><br>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+
+</html>
